@@ -383,7 +383,6 @@ def main() -> None:
         1. Apply the sidebar filters.
         2. Start with the overview.
         3. Move to the comparable price explorer for like-for-like analysis.
-        4. Use the map and download sections for spatial and operational follow-up.
         """
     )
 
