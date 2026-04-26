@@ -246,10 +246,6 @@ def show_comparable_analysis(filtered_df: pd.DataFrame, min_country_obs: int) ->
 
 def show_market_map(filtered_df: pd.DataFrame) -> None:
     st.header("3. Markets and map")
-    st.write(
-        "The tutorial shows that Streamlit can display maps using latitude and longitude, "
-        "so this section uses market coordinates to show spatial coverage."
-    )
 
     if filtered_df.empty:
         st.warning("No rows are available for the map under the current filters.")
