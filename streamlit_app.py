@@ -320,7 +320,7 @@ def show_data_quality(filtered_df: pd.DataFrame) -> None:
 
 def main() -> None:
     st.title("Global Food Price Dashboard 2026")
-    st.caption("Google Colab friendly Streamlit coursework app using the HDX food price dataset.")
+    st.caption("Streamlit coursework app using the HDX food price dataset.")
 
     st.sidebar.header("Data source")
     uploaded_file = st.sidebar.file_uploader("Upload the CSV if it is not in the app folder", type=["csv"])
